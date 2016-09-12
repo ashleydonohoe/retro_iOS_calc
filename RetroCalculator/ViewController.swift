@@ -60,6 +60,7 @@ class ViewController: UIViewController {
         processOperation(operation: .Add)
     }
     
+    // Clears data
     @IBAction func onEqualPressed(_ sender: AnyObject) {
         processOperation(operation: currentOperation)
     }
